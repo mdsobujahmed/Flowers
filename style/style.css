@@ -1,0 +1,325 @@
+.nav_content {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  justify-content: space-between;
+  margin: auto;
+}
+.nav_content img {
+  height: 70px;
+}
+.nav_content ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav_list {
+  display: flex;
+  gap: 20px;
+}
+.banear_content {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  height: 550px;
+}
+.banear_content img {
+  margin-top: 200px;
+}
+.banear_title {
+  margin-top: 200px;
+  max-width: 550px;
+}
+.banear_title h1 {
+  font-size: 62px;
+  font-weight: 700;
+}
+.banear_title span {
+  color: #e95a08;
+}
+/* **************************************Our_Plants_section ************************************/
+.Our_Plants_card {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.Our_Plants_title {
+  text-align: center;
+  max-width: 550px;
+  margin: auto;
+  padding-top: 70px;
+}
+.card_title {
+  text-align: center;
+}
+.Our_Plants_title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.Our_Plants_title span {
+  color: #e95a08;
+}
+.Our_Plants_title p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.card_btn {
+  text-align: center;
+  border: 1px solid orangered;
+  background-color: orangered;
+  padding: 20px;
+  width: 228px;
+}
+.card_btn a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* ****************************Flower_dis_section **********************/
+.Flower_dis_section {
+  padding: 130px 0px;
+}
+.Flower_dis_content {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+  gap: 50px;
+}
+.flower-store-img {
+  position: relative;
+}
+.trusted-badge-img {
+  position: absolute;
+  height: 150px;
+  margin-left: -100px;
+  margin-top: -70px;
+}
+.flower-dis h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.flower-dis li {
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+/********************************** Latest_Deals_section *******************************************/
+.Latest_Deals_img {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.img_single_one {
+  background-image: url(../assets/deal-ana.png);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 18px;
+  margin-top: -22px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+}
+.img_single_tow {
+  background-image: url(../assets/deal-bloom.png);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  color: white;
+}
+.img_tow {
+  background-image: url(../assets/deal-zabo.png);
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-left: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+}
+.img_tow h1 {
+  padding-top: 160px;
+}
+.img_tow a {
+  color: white;
+}
+.img_single_one h1 {
+  padding-top: 65px;
+}
+.img_single_one a {
+  color: white;
+}
+.img_single_tow h1 {
+  padding-top: 65px;
+}
+.img_single_tow a {
+  color: white;
+}
+.Latest_Deals_title {
+  text-align: center;
+  max-width: 550px;
+  margin: auto;
+}
+.Latest_Deals_title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+.Latest_Deals_title span {
+  color: #e95a08;
+}
+.Latest_Deals_title p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/***************************** join_section **********************/
+.join_content {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+.join_content input {
+  padding: 15px;
+  width: 600px;
+  border: none;
+}
+.join_content button {
+  padding: 14px 30px;
+  background-color: #e95a08;
+  border: none;
+}
+.join_content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 200px;
+}
+.join_bg {
+  background-image: url(../assets/news-letter-bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-top: 70px;
+}
+/* footer_section  */
+.footer_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1140px;
+  margin: auto;
+  margin-top: 50px;
+}
+.footer_content li {
+  list-style: none;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.footer_content img {
+  padding-right: 15px;
+  text-align: center;
+}
+@media screen and (max-width: 540px) {
+  .nav_content ul {
+    visibility: hidden;
+  }
+  .nav_list p {
+    justify-content: end;
+    display: flex;
+    gap: 10px;
+  }
+  .banear_title {
+    margin-top: 10px;
+    max-width: 100%s;
+  }
+  .banear_content img {
+    margin-top: 20px;
+  }
+  .banear_content {
+    flex-direction: column;
+  }
+  .Our_Plants_card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .Our_Plants_title {
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    padding-top: 70px;
+    padding-left: 130px;
+  }
+  .Our_Plants_title {
+    padding-top: 220px;
+  }
+  .Flower_dis_content {
+    flex-direction: column;
+    width: 100%;
+  }
+  .trusted-badge-img {
+    visibility: hidden;
+  }
+  .flower-dis {
+  }
+  .Flower_dis_section {
+    padding: 5px;
+  }
+  .Latest_Deals_img {
+    flex-direction: column;
+    padding: 70px;
+  }
+  .img_tow {
+    background-image: url(../assets/deal-zabo.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+  }
+  .img_tow h1 {
+    padding-top: 60px;
+  }
+  .Latest_Deals_title {
+    text-align: center;
+    margin-left: 80px;
+  }
+  .join_bg {
+    width: 580px;
+  }
+  .join_content input {
+    padding: 15px;
+    width: 370px;
+    border: none;
+  }
+  .footer_content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 1140px;
+    margin: auto;
+  }
+}
